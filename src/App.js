@@ -44,7 +44,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="app">
+        <div className="no-mobile">
+          <h2>Mobile version coming soon...</h2>
+        </div>
         <Header />
         <Switch />
         <Route exact={true} path='/' component={HomePage} />

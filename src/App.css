@@ -1,13 +1,32 @@
 body {
-  font-family: 'Open Sans Condensed';
-  padding: 20px 80px;
+	font-family: "Open Sans Condensed";
+	padding: 20px 80px;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.app .no-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+	.app .no-mobile {
+		position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+	}
 }
