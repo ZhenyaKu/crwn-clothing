@@ -46,7 +46,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="no-mobile">
-          <h2>Mobile version coming soon...</h2>
+          <h2>Mobile version coming</h2>
         </div>
         <Header />
         <Switch />
